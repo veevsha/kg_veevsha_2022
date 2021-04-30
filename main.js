@@ -1,4 +1,4 @@
-let numbers = [3, 25, 209];
+var numbers = process.argv.slice(2);
 
 function convert(numbers){
     let array = numbers.toString();
